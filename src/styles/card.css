@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 5px rgba(255, 51, 33, 0.6);
+    border-color: rgba(255, 51, 33, 0.6);
+}
+
+.img-container img {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}

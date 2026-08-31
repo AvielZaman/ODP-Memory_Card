@@ -1,0 +1,11 @@
+.scoresboard {
+    display: flex;
+    gap: 25px;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: black;
+}
